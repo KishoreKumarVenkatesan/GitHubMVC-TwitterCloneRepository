@@ -38,7 +38,7 @@ namespace TwitterClone.DAL
             try
             {
                 lst = (from e in db.Tweets
-                       join f in db.People on e.user_id equals f.followingPerson
+                        //join f in db.People on e.user_id equals f.followingPerson
                        where e.user_id == userId
                        select new TweetModel
                        {
