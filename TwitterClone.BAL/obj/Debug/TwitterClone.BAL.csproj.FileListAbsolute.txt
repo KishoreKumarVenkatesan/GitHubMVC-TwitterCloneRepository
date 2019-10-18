@@ -1,0 +1,14 @@
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.BAL\bin\Debug\TwitterClone.BAL.dll.config
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.BAL\bin\Debug\TwitterClone.BAL.dll
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.BAL\bin\Debug\TwitterClone.BAL.pdb
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.BAL\bin\Debug\EntityFramework.dll
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.BAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.BAL\bin\Debug\TwitterClone.DAL.dll
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.BAL\bin\Debug\TwitterClone.Entities.dll
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.BAL\bin\Debug\TwitterClone.DAL.pdb
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.BAL\bin\Debug\TwitterClone.Entities.pdb
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.BAL\bin\Debug\EntityFramework.xml
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.BAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.BAL\obj\Debug\TwitterClone.BAL.csprojResolveAssemblyReference.cache
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.BAL\obj\Debug\TwitterClone.BAL.dll
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.BAL\obj\Debug\TwitterClone.BAL.pdb

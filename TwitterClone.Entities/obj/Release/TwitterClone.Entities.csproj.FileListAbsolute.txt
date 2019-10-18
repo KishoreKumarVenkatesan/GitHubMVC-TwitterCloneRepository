@@ -1,0 +1,10 @@
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.Entities\bin\Release\TwitterClone.Entities.dll.config
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.Entities\bin\Release\TwitterClone.Entities.dll
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.Entities\bin\Release\TwitterClone.Entities.pdb
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.Entities\bin\Release\EntityFramework.dll
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.Entities\bin\Release\EntityFramework.SqlServer.dll
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.Entities\bin\Release\EntityFramework.xml
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.Entities\bin\Release\EntityFramework.SqlServer.xml
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.Entities\obj\Release\TwitterClone.Entities.csprojResolveAssemblyReference.cache
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.Entities\obj\Release\TwitterClone.Entities.dll
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.Entities\obj\Release\TwitterClone.Entities.pdb

@@ -1,0 +1,9 @@
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.Entities\bin\Debug\TwitterClone.Entities.dll.config
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.Entities\bin\Debug\TwitterClone.Entities.dll
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.Entities\bin\Debug\TwitterClone.Entities.pdb
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.Entities\bin\Debug\EntityFramework.dll
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.Entities\bin\Debug\EntityFramework.xml
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.Entities\obj\Debug\TwitterClone.Entities.dll
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.Entities\obj\Debug\TwitterClone.Entities.pdb

@@ -1,0 +1,12 @@
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.DAL\bin\Debug\TwitterClone.DAL.dll.config
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.DAL\bin\Debug\TwitterClone.DAL.dll
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.DAL\bin\Debug\TwitterClone.DAL.pdb
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.DAL\bin\Debug\EntityFramework.dll
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.DAL\bin\Debug\TwitterClone.Entities.dll
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.DAL\bin\Debug\TwitterClone.Entities.pdb
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.DAL\bin\Debug\EntityFramework.xml
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.DAL\obj\Debug\TwitterClone.DAL.csprojResolveAssemblyReference.cache
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.DAL\obj\Debug\TwitterClone.DAL.dll
+C:\Projects\TwitterClone_2-master\TwitterClone_2-master\TwitterClone.DAL\obj\Debug\TwitterClone.DAL.pdb

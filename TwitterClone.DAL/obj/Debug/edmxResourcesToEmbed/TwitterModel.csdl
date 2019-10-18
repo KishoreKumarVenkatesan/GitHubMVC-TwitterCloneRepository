@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PODbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="user_id" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fullName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="joined" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Tweets" Relationship="Self.FK__Tweet__user_id__160F4887" FromRole="Person" ToRole="Tweet" />
+    <NavigationProperty Name="Person1" Relationship="PODbModel.Following" FromRole="Person" ToRole="Person1" />
+    <NavigationProperty Name="Persons" Relationship="PODbModel.Following" FromRole="Person1" ToRole="Person" />
+  </EntityType>
+  <EntityType Name="Tweet">
+    <Key>
+      <PropertyRef Name="tweet_id" />
+    </Key>
+    <Property Name="tweet_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="user_id" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="message" Type="String" MaxLength="140" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CREATED" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Persons" Relationship="Self.FK__Tweet__user_id__160F4887" FromRole="Tweet" ToRole="Person" />
+  </EntityType>
+  <Association Name="FK__Tweet__user_id__160F4887">
+    <End Role="Person" Type="Self.Person" Multiplicity="1" />
+    <End Role="Tweet" Type="Self.Tweet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="Tweet">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PODbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="People" EntityType="Self.Person" />
+    <EntitySet Name="Tweets" EntityType="Self.Tweet" />
+    <AssociationSet Name="FK__Tweet__user_id__160F4887" Association="Self.FK__Tweet__user_id__160F4887">
+      <End Role="Person" EntitySet="People" />
+      <End Role="Tweet" EntitySet="Tweets" />
+    </AssociationSet>
+    <AssociationSet Name="Following" Association="PODbModel.Following">
+      <End Role="Person" EntitySet="People" />
+      <End Role="Person1" EntitySet="People" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="Following">
+    <End Type="PODbModel.Person" Role="Person" Multiplicity="*" />
+    <End Type="PODbModel.Person" Role="Person1" Multiplicity="*" />
+  </Association>
+</Schema>
